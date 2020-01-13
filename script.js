@@ -14,7 +14,7 @@ const makeRow = () => {
 const addRowButton = document.getElementById('add-row');
 addRowButton.addEventListener('click', makeRow);
 
-//change color
+//change color.
 let selectedColor = 'red';
 const choosenColor = document.getElementById('choosenColor');
 choosenColor.addEventListener('change', event => {
