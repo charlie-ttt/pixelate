@@ -1,4 +1,4 @@
-// add Row button
+// add Row button d
 const table = document.getElementById('table');
 const makeRow = () => {
   const tr = document.createElement('tr');
@@ -14,7 +14,7 @@ const makeRow = () => {
 const addRowButton = document.getElementById('add-row');
 addRowButton.addEventListener('click', makeRow);
 
-//change color.
+//change color
 let selectedColor = 'red';
 const choosenColor = document.getElementById('choosenColor');
 choosenColor.addEventListener('change', event => {
